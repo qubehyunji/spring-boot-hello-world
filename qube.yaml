@@ -1,0 +1,32 @@
+id: 60da3a67-51a3-4fd7-872f-41cc62e36716
+version: v2
+name: tester
+apptype: api
+language: java
+containerName: tester
+toolchain:
+  id: 58e56a68acac5a0020e2b930
+  name: Qubeship-Java-Toolchain
+opinion:
+  id: 58e5596a13d0cc000e88a95d
+  name: Qubeship basic opinion
+endpoint:
+  id: 
+  name: Default Endpoint
+  type: 
+variables:
+  - name: APP_VERSION
+    value: v0.1
+build:
+  compile:
+    publish:
+     - target/
+bake:
+  skip: false
+test:
+  skip: true
+deploy_to_qa:
+  skip: true
+deploy_to_prod:
+  skip: false
+
