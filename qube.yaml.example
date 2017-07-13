@@ -1,9 +1,9 @@
-id: cf4a7bbe-b30b-412d-ac85-920b8d90a202
+id: fa4fac4b-2b21-4700-9352-fc147bb18261
 version: v2
-name: java
+name: helloworld
 apptype: api
 language: java
-containerName: java
+containerName: helloworld
 toolchain:
   id: 58e56a68acac5a0020e2b930
   name: Qubeship-Java-Toolchain
@@ -11,9 +11,9 @@ opinion:
   id: 58e5596a13d0cc000e88a95d
   name: Qubeship basic opinion
 endpoint:
-  id: 5937248d32dc490027693470
-  name: Qubeship Sandbox Cluster
-  type: target
+  id: 
+  name: Default Endpoint
+  type: 
 variables:
   - name: APP_VERSION
     value: v0.1
